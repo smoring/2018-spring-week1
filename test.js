@@ -12,3 +12,10 @@ if(age > 40) {
 	console.log("Party on, you party animal");
 }
 
+var youngerThanMe = age - 1;
+
+while(youngerThanMe > 0) {
+	console.log("Someone age " + (age - youngerThanMe) + " is " + youngerThanMe + " younger than me.");
+	youngerThanMe--;
+}
+
